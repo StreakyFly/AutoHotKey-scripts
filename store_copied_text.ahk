@@ -1,6 +1,6 @@
 ﻿#Requires AutoHotkey v2.0
 
-#SingleInstance Ignore  ; if this script is already running, don't start second one
+#SingleInstance Ignore  ; if this script is already running, don't start another one
 
 
 ; Ctrl+C=>+E to activate (Ctrl+C=>+S would be a bit more practical, but then Ctrl+S doesn't work)
