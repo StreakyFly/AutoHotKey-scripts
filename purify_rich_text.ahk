@@ -7,16 +7,16 @@ BlockInput true ; blocks user input (mouse clicks, keyboard presses), this only 
 ; Check if clipboard contains any data
 if A_Clipboard != "" {
     Run "notepad"
-	WinWaitActive "ahk_class Notepad"
+    WinWaitActive "ahk_class Notepad"
 
-	Send "^v" ; pastes copied contents
-	Send "^a" ; selects all text
-	Send "^c" ; copies all text
-	Sleep 100
+    Send "^v" ; pastes copied contents
+    Send "^a" ; selects all text
+    Send "^c" ; copies all text
+    Sleep 100
 
-	WinClose ; closes notepad
-	Send "{Right}"
-	Send "{Enter}"
+    WinClose ; closes notepad
+    Send "{Right}"
+    Send "{Enter}"
 }
 
 BlockInput false ; resumes user input
