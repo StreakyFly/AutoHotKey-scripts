@@ -12,4 +12,4 @@ Save selected text to a text file by pressing Ctrl+C=>+E
 If you want to copy a hyperlink or some weirdly formatted text (RTF - Rich Text Format), this script will *magically* convert it to plain text (it pastes it in Notepad, yes)
 
 4. *does_something_to_all_downloaded_files_in_the_last_30_minutes.ahk*  
-Well... this script does something to all downloaded files in the last 30 minutes... I felt like it could be useful in the future and then couldn't come up with a single use for it
+Well... this script does something to all downloaded files in the last 30 minutes... I felt like it could be useful in the future but then couldn't come up with a single use for it
